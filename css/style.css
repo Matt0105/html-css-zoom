@@ -55,8 +55,8 @@ ul {
 .user-img {
     display: flex;
     align-items: flex-end;
-    width: 200px;
-    height: 120px;
+    width: 280px;
+    height: 180px;
     background: url(../img/GettyImages-887815620.jpeg);
     background-size: cover;
     background-position: center;
@@ -104,7 +104,23 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
-.footer-list li {
+
+.total-btn .btn-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.total-btn {
+    display: flex;
+    align-items: center;
+}
+.total-btn .arrow-menu {
+    font-size: 0.5em;
+    margin-left: 10px;
+}
+
+.footer-list li{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -118,7 +134,6 @@ ul {
     border: none;
     font-size: 2em;
 }
-
 .footer-list .fas.fa-share-square {
     color: rgb(4, 156, 4);
 }
