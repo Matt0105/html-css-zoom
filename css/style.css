@@ -70,6 +70,8 @@ ul {
 
 /* footer */
 .call-opt {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 80px;
     background-color: rgb(44, 44, 44);
@@ -77,12 +79,21 @@ ul {
 
 .col-left {
     display: flex;
-    width: 15%;
+    width: 10%;
+    height: 100%;
+}
+
+.col-right {
+    display: flex;
+    width: 8%;
     height: 100%;
 }
 
 .col-center {
     display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
 }
 
 .footer-list {
@@ -106,4 +117,15 @@ ul {
     color: white;
     border: none;
     font-size: 2em;
+}
+
+.footer-list .fas.fa-share-square {
+    color: rgb(4, 156, 4);
+}
+
+.col-right button{
+    width: 100%;
+    color: red;
+    background-color: #4A4A4A;
+    border: none;
 }
