@@ -39,10 +39,29 @@ html {
 }
 
 .room-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
     width: 90%;
     height: calc(100% - 130px);
     margin: 0 auto;
-    background-color: blueviolet;
+}
+
+.user-img {
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    height: 120px;
+    background: url(../img/GettyImages-887815620.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.name-label {
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .call-opt {
