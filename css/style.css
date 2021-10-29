@@ -40,6 +40,9 @@ ul {
     border: none;
     border-radius: 5px;
 }
+.head-opt-btn:hover {
+    background-color: #686565;
+}
 
 /* main */
 .room-video {
@@ -50,6 +53,7 @@ ul {
     width: 90%;
     height: calc(100% - 130px);
     margin: 0 auto;
+    padding-bottom: 1em;
 }
 
 .user-img {
@@ -79,7 +83,7 @@ ul {
 
 .col-left {
     display: flex;
-    width: 10%;
+    width: 13%;
     height: 100%;
 }
 
@@ -105,19 +109,46 @@ ul {
     align-items: center;
 }
 
-.total-btn .btn-left {
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btn-container:hover {
+    background-color: #4A4A4A;
+}
+.btn-container:hover button{
+    background-color: #4A4A4A;
+}
+
+.split-btn .btn-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.total-btn {
+.split-btn {
     display: flex;
     align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
-.total-btn .arrow-menu {
+.split-btn .arrow-menu {
     font-size: 0.5em;
     margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.split-btn:hover {
+    background-color: #4A4A4A;
+}
+.split-btn:hover button{
+    background-color: #4A4A4A;
+}
+.split-btn .arrow-menu:hover {
+    background-color: #686565;
 }
 
 .footer-list li{
@@ -143,4 +174,7 @@ ul {
     color: red;
     background-color: #4A4A4A;
     border: none;
+}
+.col-right:hover button {
+    background-color: #686565;
 }
